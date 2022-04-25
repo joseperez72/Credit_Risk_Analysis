@@ -1,7 +1,5 @@
 # Credit_Risk_Analysis
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
-
 ## Overview
 
 In this analysis, we use six different machine learning models to see which ones best predicts credit risk using a dataset from LendingClub, a peer-to-peer lending services company. We look at diffent metrics, including balanced accuracy, recall, and precision scores, to infer the performance of these machine lerarning models. In this analysis, we use Python and Jupyter Notebook.
@@ -76,3 +74,5 @@ High Risk Recall Socre: 91%
 ![easy_ensemble_report](images/easy_report.png)
 
 ## Summary
+
+After looking at all the metrics, the Easy Ensemble Classifier machine learning model produced the best metrics out of the other 5 machine learning models. Over and undersampling did not perform as well, as the balanced accuracy scores were all below 65%, and the recall scores were well under 70%. The ensemble methods did a lot better compared to the resampling models as these models do a good job of removing biases. The easy ensemble classifier machine learning model had a balanced accuracy score of 93% and recall scores of 94% and 91% for low and high risk loans, respectfully.
